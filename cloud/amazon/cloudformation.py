@@ -151,6 +151,7 @@ import yaml
 
 try:
     import boto
+    import boto.ec2
     import boto.cloudformation.connection
     HAS_BOTO = True
 except ImportError:
